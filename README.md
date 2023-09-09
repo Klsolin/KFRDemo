@@ -10,8 +10,13 @@ sudo yum install cmake glm-devel glfw-devel mesa-libGL-devel # Or use dnf instea
 
 When compiling the project, please first enter the KFRDemo directory on the command line, and then execute the following commands in sequence:
 mkdir build
+
 cd build
+
 cmake ..
+
 make
+
 cd bin
+
 ./KFRDemo
